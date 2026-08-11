@@ -6,15 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "bot": "npx tsx bot/index.ts"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.2",
+    "animejs": "^4.5.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "lucide-react": "^1.31.0",
     "next": "16.3.0",
+    "pdf-lib": "^1.17.1",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/animejs": "^3.1.13",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
